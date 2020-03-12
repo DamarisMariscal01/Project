@@ -6,6 +6,7 @@ nav {
   background-color: #0E385E;
   height: 60px;
   width: 83.50%;
+  margin-left: 130px;
 }
 
 img{
@@ -16,6 +17,7 @@ main {
   width: 80%;
   padding: 25px;
   background-color: #B1CFEA;
+  margin-left: 130px;
 }
 
 button{
