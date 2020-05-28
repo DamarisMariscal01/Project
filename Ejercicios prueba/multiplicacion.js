@@ -12,3 +12,7 @@ function comprobar() {
     alert ("SIGUE INTENTANDO")
   }
 }
+
+function actualizar() {
+
+}

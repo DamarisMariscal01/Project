@@ -1,5 +1,14 @@
 .contenedor {
   display: flex;
   justify-content: space-evenly;
-  width: 300px;
+  width: 500px;
+}
+
+button {
+  background-color: pink;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+  color: #FE2E64;
 }
