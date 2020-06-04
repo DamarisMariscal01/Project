@@ -5,10 +5,13 @@
 }
 
 button {
-  background-color: pink;
+  background-color: #FE2E64;
   font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: white;
 }
 
 p {
   color: #FE2E64;
+  font-weight: bold;
 }
