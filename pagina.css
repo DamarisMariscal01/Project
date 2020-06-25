@@ -1,0 +1,14 @@
+body {
+  background-color: #E69DFB;
+}
+
+h1 {
+  border: 0;
+  text-align: left;
+  font-family: "Sans Serif Fonts";
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+
+}

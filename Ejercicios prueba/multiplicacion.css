@@ -12,6 +12,26 @@ button {
 }
 
 p {
-  color: #FE2E64;
+  color: black;
+}
+
+body {
+  background-color: white;
+}
+
+h1 {
+  border: 0;
+  text-align: left;
+  font-family: "Sans Serif Fonts";
   font-weight: bold;
+  font-size: 30px;
+  color: #FE2E64;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+
+}
+
+h3 {
+  font-family: "Sans Serif Fonts";
+  font-weight: bold;
+  color: #FE2E64;
 }
