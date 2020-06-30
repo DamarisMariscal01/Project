@@ -5,15 +5,36 @@
 }
 
 button {
-  background-color: #FE2E64;
-  font-family: 'Courier New', Courier, monospace;
+  background-color: #D32F2F;
+  font-family: Courier, monospace, sans-serif;
   font-weight: bold;
   color: white;
+  border: 0px;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #EF5350;
 }
 
 p {
   color: black;
+  font-size: small;
+  text-align: left;
 }
+
+nav{
+  -webkit-flex: 1 6 20%;
+           flex: 1 6 20%;
+   -webkit-order: 1;
+           order: 1;
+}
+
+#main, #page {
+    -webkit-flex-flow: column;
+            flex-flow: column;
+}
+
 
 body {
   background-color: white;
@@ -25,13 +46,45 @@ h1 {
   font-family: "Sans Serif Fonts";
   font-weight: bold;
   font-size: 30px;
-  color: #FE2E64;
+  color: #D32F2F;
   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
-
 }
 
 h3 {
   font-family: "Sans Serif Fonts";
   font-weight: bold;
-  color: #FE2E64;
+  color: #D32F2F;
+}
+
+.preguntas{
+  display: flex;
+
+}
+
+.preguntas>p{
+  margin-right: 3px;
+}
+
+#testM{
+  display: none;
+}
+
+#mostrarCM{
+  display: none;
+}
+
+#contenedorCM{
+  display: none;
+}
+
+#multiplicaciones{
+  display: none;
+}
+
+#sumas{
+  display: none;
+}
+
+#restas{
+  display: none;
 }
