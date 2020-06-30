@@ -165,6 +165,10 @@ function mostrarCaliM(){
 function examenM(){
   document.getElementById("multiplicaciones").style.display="none";
   document.getElementById("testM").style.display="block";
+  document.getElementById("espacioM").style.display="flex";
+  calificacionM = 0;
+  actualizarTestM();
+  document.getElementById('numPreguntaM').innerHTML = 1;
 }
 
 
@@ -215,6 +219,10 @@ function mostrarCaliS(){
 function examenS(){
   document.getElementById("sumas").style.display="none";
   document.getElementById("testS").style.display="block";
+  document.getElementById("espacioS").style.display="flex";
+  calificacionS = 0;
+  actualizarTestS();
+  document.getElementById('numPreguntaS').innerHTML = 1;
 }
 
 function calificarR(){
@@ -264,4 +272,8 @@ function mostrarCaliR(){
 function examenR(){
   document.getElementById("restas").style.display="none";
   document.getElementById("testR").style.display="block";
+  document.getElementById("espacioR").style.display="flex";
+  calificacionR = 0;
+  actualizarTestR();
+  document.getElementById('numPreguntaR').innerHTML = 1;
 }
